@@ -1,0 +1,142 @@
+body{
+  background-color: rgb(7, 13, 27);
+}
+
+.presentation{
+  text-align: center;
+}
+
+.presentation_text{
+  margin-bottom: 20px;
+}
+
+.presentation_text h3{
+  color: rgb(199, 163, 71);
+  text-align: left;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+
+}
+
+.presentation_text h1{
+  color: rgb(242, 242, 245);
+  font-size: 40px;
+  text-align: center;
+}
+
+.presentation img{ 
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.aboutme{
+  background-color: rgb(25, 40, 71);
+  box-shadow: 0px -43px 28px 14px rgba(25,40,71,1);
+}
+
+.aboutme strong{
+  font-size: 30px;
+  color: white;
+  margin: 15px;
+}
+
+.aboutme p{
+  font-size: 20px;
+  margin: 23px;
+  color: white;
+  line-height: 1.5;
+}
+
+.list{
+  margin: 15px;
+  color: #a9adb8;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.list li{
+  margin-top: 25px;;
+}
+
+.portafolio{
+  text-align: center;  
+  box-shadow: 0px -43px 28px 14px rgba(7, 13, 27,1);
+
+}
+
+.portafolio h2{
+  color: rgb(199, 163, 71);
+  font-size: 35px;
+}
+
+.portafolio p{
+  margin: 10px;
+  color: #a9adb8;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.portafolio img{
+  margin-top: 20px;
+}
+
+.macachi img{
+  width: 95%;
+}
+
+.ecocanas img{
+  width: 95%;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .presentation{
+    color: white;
+    /*border: 1px solid red;*/
+    height: 450px;
+  }
+  
+  .presentation_text{
+    float: left;
+    margin-top: 100px;
+    margin-left: 400px;
+  }
+  
+  .presentation_text h3{
+    color: rgb(199, 163, 71);
+    font-size: 35px;
+  }
+  
+  .presentation_text h1{
+    color: rgb(242, 242, 245);
+  }
+  
+  .presentation img{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 20%;
+  }
+
+  .aboutme{
+    text-align: center;
+  }
+
+  .portafolio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .macachi img{
+    width: 50%;
+  }
+  
+  .ecocanas img{
+    width: 50%;
+  }
+
+}
+
+
+
